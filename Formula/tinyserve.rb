@@ -1,9 +1,9 @@
 class Tinyserve < Formula
   desc "Local host manager for a single Mac mini running small Docker services"
   homepage "https://github.com/tinyserve/tinyserve"
-  url "https://github.com/tinyserve/tinyserve/releases/download/v0.1.16/tinyserve_0.1.16_darwin_arm64.tar.gz"
-  sha256 "478b9f42448cdacd0379f58185154bcbca16b109df42ca17d09c968df3e7fca7"
-  version "0.1.16"
+  url "https://github.com/tinyserve/tinyserve/releases/download/v0.1.17/tinyserve_0.1.17_darwin_arm64.tar.gz"
+  sha256 "28a5a72240fea692999a7aa1d5662935a8fc57ea4f900fcd3574ee9a319bc4e4"
+  version "0.1.17"
 
   def install
     bin.install "tinyserve"
